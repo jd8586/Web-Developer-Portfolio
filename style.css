@@ -272,6 +272,10 @@
 	/******************************** Media Queries ****************************/
 	
 	@media only screen and (min-width:504.5px) and (max-width:1023.5px) {
+	   /******************** Heading section ***************/
+	    .main .main-head .head-section .head-title h1 {
+	        font-size: 2.2rem;
+	    }
 	    /******************** Client and Product service section ***************/
 	    .main .Services-main .our-clients .client-logo-imgs ul {
 	        grid-template-columns: repeat(3, 1fr);
@@ -340,6 +344,7 @@
 	    .main .nav .nav-menu .hamburger-menu {
 	        display: none;
 	    }
+		/******************** Heading section ***************/
 	    .main .main-head .head-section {
 	        width: 55%;
 	    }

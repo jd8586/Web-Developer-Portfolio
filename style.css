@@ -1,0 +1,377 @@
+	/******************** Google fonts api ***************/
+	
+	@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+	/******************** Declaring for all elements ***************/
+	
+	* {
+	    margin: 0;
+	    padding: 0;
+	    box-sizing: border-box;
+	}
+	
+	body {
+	    background: #0a0a0b;
+	    color: #fff;
+	    font-family: Inter, sans-serif;
+	    height: 100%;
+	    width: 100%;
+	}
+	
+	a {
+	    text-decoration: none;
+	}
+	
+	.nav,
+	.main-head,
+	.Services-main,
+	.know-us,
+	.contact-us,
+	.footer {
+	    padding: 30px;
+	}
+	/******************** Main Division ***************/
+	
+	.main {
+	    position: relative;
+	}
+	/******************** Navigation Menu ***************/
+	
+	.main .nav .nav-menu {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	
+	.main .nav .nav-menu .logo-name {
+	    width: 200px;
+	}
+	
+	.main .nav .nav-menu .logo-name a {
+	    font-size: 1.1rem;
+	    font-family: Prata, sans-serif;
+	    color: #e1e1e1;
+	}
+	
+	.main .nav .nav-menu .nav-links {
+	    background: #fff;
+	    z-index: 100;
+	    width: 100%;
+	    height: 100%;
+	    margin: 30px;
+	    padding: 50px;
+	    display: none;
+	}
+	
+	.main .nav .nav-menu .nav-links ul {
+	    display: grid;
+	    justify-content: center;
+	    align-items: center;
+	}
+	
+	.main .nav .nav-menu .nav-links ul li {
+	    list-style-type: none;
+	    margin: 15px;
+	    padding: 8px;
+	    text-align: center;
+	}
+	
+	.main .nav .nav-menu .nav-links ul li .nav-link-close {
+	    display: grid;
+	    justify-content: center;
+	    align-items: center;
+	}
+	
+	.main .nav .nav-menu .nav-links ul li .nav-link-close .close-menu {
+	    height: 5px;
+	    width: 45px;
+	    background: #000;
+	    transform: rotate(40deg);
+	}
+	
+	.main .nav .nav-menu .nav-links ul li .nav-link-close .close-menu:nth-child(2) {
+	    transform: rotateZ(140deg) translate(-3px, 3px);
+	}
+	
+	.main .nav .nav-menu .nav-links ul li .nav-link-close:hover {
+	    cursor: pointer;
+	}
+	
+	.main .nav .nav-menu .nav-links ul li a {
+	    font-size: 1.3rem;
+	    color: #a3a3a3;
+	}
+	/******************** Get in touch link ***************/
+	
+	.main .nav .nav-menu .nav-links .get-in-touch {
+	    display: grid;
+	    justify-content: center;
+	    align-items: center;
+	}
+	
+	.main .nav .nav-menu .nav-links .get-in-touch .get-in-touch-link {
+	    background-color: #fbe850;
+	    padding: 15px 30px;
+	    border-radius: 1px;
+	    max-width: 200px;
+	    font-family: Prata, sans-serif;
+	    font-size: 1.09rem;
+	    font-weight: 600;
+	    text-align: center;
+	}
+	
+	.main .nav .nav-menu .nav-links .get-in-touch .get-in-touch-link a {
+	    color: #333;
+	}
+	/******************** Hamburger Menu ***************/
+	
+	.main .nav .nav-menu .hamburger-menu:hover {
+	    cursor: pointer;
+	}
+	/******************** Heading section ***************/
+	
+	.main .main-head .head-section .head-title h1 {
+	    font-size: 2rem;
+	    font-weight: 500;
+	    margin: 10px auto;
+	    padding: 5px auto;
+	    font-family: Prata, sans-serif;
+	}
+	
+	.main .main-head .head-section .head-content .head-text p {
+	    font-size: 1.1rem;
+	    color: #a3a3a3;
+	}
+	/******************** Client and Product service section ***************/
+	
+	.main .Services-main .our-clients .client-logo-imgs ul {
+	    list-style: none;
+	    display: grid;
+	    grid-template-columns: 1fr 1fr;
+	}
+	
+	.main .Services-main .our-clients .client-logo-imgs ul li {
+	    margin: 5px;
+	    padding: 3px;
+	}
+	
+	.main .Services-main .our-clients .client-logo-imgs ul li:nth-child(odd) {
+	    text-align: right;
+	}
+	/******************** Websites Developed list ***************/
+	
+	.main .Services-main .our-works .our-work-list .our-work-item .work-img img {
+	    height: 100%;
+	    width: 100%;
+	    margin-top: 50px;
+	}
+	
+	.main .Services-main .our-works .our-work-list .our-work-item .work-content .work-name-link {
+	    margin: 20px 0;
+	    font-family: Prata, sans-serif;
+	    font-size: 2.15rem;
+	}
+	
+	.main .Services-main .our-works .our-work-list .our-work-item .work-content .work-name-link a {
+	    color: #e1e1e1;
+	}
+	
+	.main .Services-main .our-works .our-work-list .our-work-item .work-content .work-name-link a small {
+	    font-size: 1.6rem;
+	    position: relative;
+	    top: -5px;
+	}
+	
+	.main .Services-main .our-works .our-work-list .our-work-item .work-content .work-content-text p {
+	    color: #a3a3a3;
+	    font-size: 1.1rem;
+	}
+	/******************** Know us ***************/
+	
+	.main .know-us {
+	    margin-top: 50px;
+	    background: #2e3038;
+	}
+	
+	.main .know-us .know-us-content .know-us-head h2 {
+	    margin: 20px 0;
+	    font-family: Prata, sans-serif;
+	    font-size: 2.15rem;
+	    font-weight: 100;
+	    color: #e1e1e1;
+	}
+	
+	.main .know-us .know-us-content .know-us-text p {
+	    color: #a3a3a3;
+	    font-size: 1.17rem;
+	    line-height: 1.5em;
+	}
+	/******************** Contact us get in touch ***************/
+	
+	.main .contact-us .contact-us-content {
+	    width: 100%;
+	}
+	
+	.main .contact-us .contact-us-content .contact-head h2 {
+	    margin: 20px 0;
+	    font-size: 2.15rem;
+	    font-weight: 100;
+	    color: #e1e1e1;
+	    font-family: Prata, sans-serif;
+	}
+	
+	.main .contact-us .contact-us-content .contact-text p {
+	    color: #a3a3a3;
+	    font-size: 1.17rem;
+	}
+	
+	.main .contact-us .contact-us-content .get-in-touch .get-in-touch-link {
+	    background-color: #fbe850;
+	    margin: 8px;
+	    padding: 15px 30px;
+	    border-radius: 1px;
+	    max-width: 200px;
+	    font-family: Prata, sans-serif;
+	    font-size: 1.09rem;
+	    font-weight: 600;
+	    text-align: center;
+	}
+	
+	.main .contact-us .contact-us-content .get-in-touch .get-in-touch-link a {
+	    color: #333;
+	}
+	/******************** Footer and social media links ***************/
+	
+	.main .footer {
+	    background: #2e3038;
+	}
+	
+	.main .footer .footer-content {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	
+	.main .footer .footer-content .footer-logo-name a {
+	    font-size: 1.1rem;
+	    font-family: Prata, sans-serif;
+	    color: #e1e1e1;
+	}
+	
+	.main .footer .footer-content .footer-social-links ul {
+	    list-style: none;
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	}
+	
+	.main .footer .footer-content .footer-social-links ul li {
+	    margin: 5px;
+	    padding: 3px;
+	}
+	/******************************** Media Queries ****************************/
+	
+	@media only screen and (min-width:504.5px) and (max-width:1023.5px) {
+	    /******************** Client and Product service section ***************/
+	    .main .Services-main .our-clients .client-logo-imgs ul {
+	        grid-template-columns: repeat(3, 1fr);
+	        justify-content: center;
+	        align-items: center;
+	    }
+	    .main .Services-main .our-clients .client-logo-imgs ul li:nth-child(odd) {
+	        text-align: initial;
+	    }
+	}
+	
+	@media only screen and (min-width: 1024px) {
+	    .nav,
+	    .main-head,
+	    .Services-main,
+	    .know-us,
+	    .contact-us,
+	    .footer {
+	        padding: 60px 100px;
+	    }
+	    /******************** Navigation Menu ***************/
+	    .main .nav .nav-menu .logo-name {
+	        width: 250px;
+	    }
+	    .main .nav .nav-menu .logo-name a {
+	        font-size: 1.3rem;
+	    }
+	    .main .nav .nav-menu {
+	        display: flex;
+	        justify-content: space-between;
+	        align-items: center;
+	    }
+	    .main .nav .nav-menu .nav-links {
+	        margin: 10px;
+	        padding: 5px;
+	    }
+	    .main .nav .nav-menu .nav-links {
+	        display: block;
+	        background: initial;
+	    }
+	    .main .nav .nav-menu .nav-links {
+	        display: flex;
+	        justify-content: space-around;
+	        align-items: center;
+	    }
+	    .main .nav .nav-menu .nav-links ul {
+	        display: flex;
+	        justify-content: space-around;
+	        align-items: center;
+	    }
+	    .main .nav .nav-menu .nav-links ul li a {
+	        font-size: 1.1rem;
+	    }
+	    .main .nav .nav-menu .nav-links ul li .nav-link-close {
+	        display: none;
+	    }
+	    .main .nav .nav-menu .nav-links .get-in-touch {
+	        display: block;
+	        position: absolute;
+	        right: 100px;
+	    }
+	    .main .nav .nav-menu .nav-links ul {
+	        position: absolute;
+	        left: 30%;
+	    }
+	    .main .nav .nav-menu .hamburger-menu {
+	        display: none;
+	    }
+	    .main .main-head .head-section {
+	        width: 55%;
+	    }
+	    .main .main-head .head-section .head-title h1 {
+	        font-size: 3rem;
+	    }
+	    /******************** Client and Product service section ***************/
+	    .main .Services-main .our-clients .client-logo-imgs ul {
+	        display: flex;
+	        justify-content: space-around;
+	        align-items: center;
+	    }
+	    .main .Services-main .our-works .our-work-list {
+	        display: grid;
+	        grid-template-columns: 1fr 1fr;
+	        align-items: center;
+	        grid-column-gap: 70px;
+	    }
+	    .main .Services-main .our-works .our-work-list .our-work-item .work-content .work-content-text p {
+	        color: #a3a3a3;
+	        font-size: 1.25rem;
+	    }
+	    .main .know-us .know-us-content .know-us-text p {
+	        color: #a3a3a3;
+	        font-size: 1.23rem;
+	        line-height: 1.5em;
+	    }
+	    .main .know-us {
+	        column-count: 2;
+	        column-gap: 70px;
+	    }
+	    .main .contact-us .contact-us-content {
+	        width: 45%;
+	    }
+	}
